@@ -1,0 +1,9 @@
+CC = g++
+
+hw: hw.o
+	echo "Creating executable from object file"
+	${CC} hw.o -o hw
+
+hw.o: hw.cpp
+	echo "Creating object file from source file"
+	${CC} -c hw.cpp -o hw.o

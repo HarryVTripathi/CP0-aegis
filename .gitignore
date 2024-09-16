@@ -1,0 +1,9 @@
+**/*.exe
+.vscode
+**/*.class
+**/*.JPG
+**/*.txt
+**/*.out
+**/*.o
+**/*.mp4
+.ipynb_checkpoints

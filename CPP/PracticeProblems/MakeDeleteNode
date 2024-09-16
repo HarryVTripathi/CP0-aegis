@@ -1,0 +1,9 @@
+CC = g++
+
+deleteNode: deleteNode.o
+	echo "Creating executable from object file"
+	${CC} deleteNode.o -o deleteNode
+
+deleteNode.o: deleteNode.cpp
+	echo "Creating object file from source file"
+	${CC} -c deleteNode.cpp -o deleteNode.o
